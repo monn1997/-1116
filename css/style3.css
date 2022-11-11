@@ -1,0 +1,145 @@
+.logo_image {
+    width: 110px;
+    margin: 0;
+    float: left;
+}
+
+html {
+    font-size: 62.5%;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+.container {
+    width: 980px;
+    margin: 0 auto;
+    min-height: 100%;
+    position: relative;
+}
+
+.header {
+    background-color: #f5b4b3;
+    height: 50px;
+    font-size: 1.5rem;
+}
+
+.top_menu li {
+    float: left;
+    width: auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.top_menu li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+}
+
+.top_menu li a:hover {
+    text-decoration: underline;
+}
+
+.image_area{
+    width: 100%;
+}
+
+.side_menu li {
+    background-color: #f5b4b3;
+    height: 6rem;
+    margin-bottom: 10px;
+}
+.side_menu li a {
+    font-size:2rem;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 2rem;
+}
+
+.side_menu li:hover{
+    opacity: 0.6;
+}
+.side_menu{
+    width: 300px;
+    float: left;
+}
+
+.footer{
+    background-color: #4d4d4d;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: table;
+}
+
+.footer p {
+    font-size:  1rem;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.company tr{
+    height: 7rem;
+}
+
+.company th{
+    width: 150px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+.company{
+    border-collapse: collapse;
+}
+
+.company tr:last-child th {
+    border-color: #b1b1b1;
+}
+
+.input_ {
+    width: 480px;
+}
+
+.sousin_ input {
+  color: #fff;  
+  font-size: 3rem;
+  background-color: #008b8b; 
+  padding: 10px;
+  align-items: center;
+  
+}
+
+.sousin_ input:hover{
+    opacity: 0.6;
+}
+
+.sousin1 {
+    /* position: relative; */
+} 
+
+.sousin_ {
+    text-align: center;
+    bottom: 0;
+    /* position: absolute; */
+}
