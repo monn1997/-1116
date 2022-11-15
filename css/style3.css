@@ -131,7 +131,7 @@ li {
 }
 
 .sousin_ input:hover{
-    opacity: 0.6;
+    opacity: 0.3;
 }
 
 .sousin1 {
@@ -142,4 +142,12 @@ li {
     text-align: center;
     bottom: 0;
     /* position: absolute; */
+}
+
+.side_menu .point {
+    background-color: #fcecec;
+}
+
+.side_menu .point a{
+    color: #4d4d4d;
 }
